@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <main>   
+      <nav class="nav-bar">
+        <div class="logo">
+          <!-- <img src="/Assets/Images/logo.jpg" alt="company logo"> -->
+        </div>
+          <ul>
+            <li><a id="nav-link" class="nav-link" href="#landing">Home</a></li>
+            <li><a id="nav-link" class="nav-link" href="#our-work">Portfolio</a></li>
+            <li><a id="nav-link" class="nav-link" href="#footer">Contacts</a></li>    
+          </ul>
+        </div>    
+      </nav>
+    <div id="landing" class="landing">
+      <div class="landing-text">
+        <div class="landing-inner-text">
+          <h1>D Nice Photography</h1>
+          <h2>Beautiful Natural Photography</h2>
+          <a href="#our-work" class="btn" id="view-work">View Work</a>
+        </div>
+      </div>
+      <div class="landing-image"></div>
+    </div>
+    <iframe id="video" class="intro-video" src="https://www.youtube.com/embed/Faow3SKIzq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <header id="header" class="header">
+      <h2 id="our-work">Our Work</h2>
+    </header>
+    <article class="portfolio" id="portfolio">
+      <figure class="artwork">
+        <img src="https://source.unsplash.com/1600x900/?nature,trees" alt="">
+        <h3>Photo One</h3>
+        <figcaption class="art-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, libero.</figcaption>
+      </figure>
+      <figure class="artwork">
+        <img src="https://source.unsplash.com/1600x900/?nature,water" alt="">
+        <h3>Photo two</h3>
+        <figcaption class="art-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, libero.</figcaption>
+      </figure>
+      <figure class="artwork">
+        <img src="https://source.unsplash.com/1600x900/?nature,plants" alt="">
+        <h3>Photo three</h3>
+        <figcaption class="art-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, libero.</figcaption>
+      </figure>
+      <figure class="artwork">
+        <img src="https://source.unsplash.com/1600x900/?nature,animals" alt="">
+        <h3>Photo Four</h3>
+        <figcaption class="art-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, libero.</figcaption>
+      </figure>
+      <figure class="artwork">
+        <img src="https://source.unsplash.com/1600x900/?nature,clouds" alt="">
+        <h3>Photo five</h3>
+        <figcaption class="art-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, libero.</figcaption>
+      </figure>
+      <figure class="artwork">
+        <img src="https://source.unsplash.com/1600x900/?nature,fire" alt="">
+        <h3>Photo Six</h3>
+        <figcaption class="art-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, libero.</figcaption>
+      </figure>
+    </article>
+    <footer id="footer" class="footer">
+      <h3>Book A consultation today!</h3>
+      <form action="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" id="form">
+        <div class="form-group">
+          <label id="name" for="name">Name</label>
+          <input
+            type="name"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+      </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+        </div>
+        <div class="form-group">
+          <label id="phone" for="phone">Phone:</label>
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            class="form-control"
+            placeholder="Enter your number"
+            required
+          />
+      </div>
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>     
+      </form>
+    </footer>
+</main>    
+</body>
+</html>
